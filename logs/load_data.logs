@@ -1,0 +1,8 @@
+2022-06-16 12:08:28,580 ERROR 'Series' object has no attribute 'ma'
+2022-06-16 12:08:28,581 INFO No error in load_data.py
+2022-06-16 12:09:04,640 ERROR 'Series' object has no attribute 'ma'
+2022-06-16 12:09:04,641 INFO No error in load_data.py
+2022-06-16 12:09:55,264 INFO load_save function runs successfully
+2022-06-16 12:09:55,264 INFO No error in load_data.py
+2022-06-16 12:45:42,740 INFO load_save function runs successfully
+2022-06-16 12:45:42,741 INFO No error in load_data.py

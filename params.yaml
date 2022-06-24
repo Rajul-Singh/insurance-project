@@ -1,0 +1,29 @@
+base:
+  project: insurance-prediction
+  random_state: 42
+  target_col: expenses
+
+data_source:
+  s3_source: data_given/insurance.csv
+
+load_data:
+  raw_dataset_csv: data/raw/dataset.csv
+
+split_data:
+  train_path: data/processed/train_dataset.csv
+  test_path: data/processed/test_dataset.csv
+  test_size: 0.2
+
+estimators:
+  RandomForestRegressor:
+    params:
+      criterion: 'squared_error'
+      max_depth: 5
+      min_samples_split: 4
+      n_estimators: 300
+
+reports:
+  params: reports/params.json
+  scores: reports/scores.json
+
+model_dir: models

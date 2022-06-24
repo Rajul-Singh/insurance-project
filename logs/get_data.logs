@@ -1,0 +1,26 @@
+2022-06-16 11:57:02,290 INFO read_params function runs successfully
+2022-06-16 11:57:02,295 INFO read_params function runs successfully
+2022-06-16 11:57:02,304 INFO get_data function runs successfully
+2022-06-16 11:57:02,308 ERROR 'Series' object has no attribute 'ma'
+2022-06-16 11:57:02,308 INFO No error in load_data.py
+2022-06-16 12:08:20,183 INFO No errors in get_data.py
+2022-06-16 12:08:20,189 INFO read_params function runs successfully
+2022-06-16 12:08:20,199 INFO get_data function runs successfully
+2022-06-16 12:08:28,557 INFO read_params function runs successfully
+2022-06-16 12:08:28,565 INFO read_params function runs successfully
+2022-06-16 12:08:28,577 INFO get_data function runs successfully
+2022-06-16 12:09:04,614 INFO read_params function runs successfully
+2022-06-16 12:09:04,624 INFO read_params function runs successfully
+2022-06-16 12:09:04,635 INFO get_data function runs successfully
+2022-06-16 12:09:55,216 INFO read_params function runs successfully
+2022-06-16 12:09:55,226 INFO read_params function runs successfully
+2022-06-16 12:09:55,235 INFO get_data function runs successfully
+2022-06-16 12:45:42,674 INFO read_params function runs successfully
+2022-06-16 12:45:42,685 INFO read_params function runs successfully
+2022-06-16 12:45:42,700 INFO get_data function runs successfully
+2022-06-16 12:45:50,120 INFO read_params function runs successfully
+2022-06-16 12:48:18,744 INFO read_params function runs successfully
+2022-06-16 14:16:48,087 INFO read_params function runs successfully
+2022-06-16 14:18:38,107 INFO read_params function runs successfully
+2022-06-16 14:56:54,481 INFO read_params function runs successfully
+2022-06-16 14:57:53,936 INFO read_params function runs successfully

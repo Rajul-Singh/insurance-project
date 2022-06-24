@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./static/extrastyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Insurance-premium-prediction</title>
+</head>
+
+<body>
+    <!--------Header start here------->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand " id="brand-logo" href="{{url_for('index')}}">
+                Insurance-premium-prediction</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active menu-items" aria-current="page" href="{{url_for('index')}}">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active menu-items" href="{{url_for('about')}}">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active menu-items" aria-current="page" target="_blank"
+                            href="https://github.com/Abhi-prasad7042/Insurance_internshipProject">Source
+                            Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active menu-items" target="_blank"
+                            href="https://github.com/Abhi-prasad7042">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!----------Header End--------->
+    <!------------------------------------------->
+    <!----------main Start Here---------->
+    <main role="main" class="container">
+        <div class="jumbotron">
+            <h1>Insurance Premium Prediction</h1>
+            <br>
+            <h2 class="lead">Internship Project in Ineuron</h2>
+            <br>
+            <br>
+
+            <h3>Problem statement</h3>
+            <p>The goal of this project is to give people an estimate of how much they need based on
+                their individual health situation. After that, customers can work with any health
+                insurance carrier and its plans and perks while keeping the projected cost from our
+                study in mind. This can assist a person in concentrating on the health side of an
+                insurance policy rather han the ineffective part.</p>
+
+            <br>
+            <h4>Approach:</h4>
+            <p>The classical machine learning tasks like Data Exploration, Data Cleaning,
+                Feature Engineering, Model Building and Model Testing. Try out different machine
+                learning algorithms that’s best fit for the above case.
+                <br>
+                <b>Some Famous Algorithms</b>: - Multiple Linear Regression, Decision tree Regression and Gradient Boosting, Adaboost Regressor, RandomForestRegression and Elasticnet.</p>
+            <br>
+            <h4>Result:</h4>
+            <p>Build a solution that should able to predict premium of the personal for health insurance.</p>
+            <br>
+
+            <h4>Web:</h4>
+            <p>To create webapp we used flask here, and for templates design we used bootstrap and css. For deployement we used
+                heroku because it is free open source library and for more information click on <a
+                    href="https://github.com/Abhi-prasad7042/Insurance_internshipProject/blob/main/docs/HLD%20Report.docx?raw=true">HLD
+                    report</a> and <a
+                    href="https://github.com/Abhi-prasad7042/Insurance_internshipProject/blob/main/docs/LLD%20Report.docx?raw=true">LLD
+                    report</a>. For more details like how do we make pipelines for data science project, what are the
+                steps we all need to create env and about data source click <a
+                    href="https://github.com/Abhi-prasad7042/Insurance_internshipProject/blob/main/README.md">Readme.md</a>.
+            </p>
+
+        </div>
+    </main>
+
+    <!----------main End---------->
+
+
+    <!----------footer Start here-------->
+    <footer>
+        <section class="contact-area" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                        <div class="contact-content text-center">
+
+                            <div class="contact-social">
+                                <ul>
+                                    <li><a class="hover-target" href="https://www.instagram.com/abhikumar207/"
+                                            target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+                                    <li><a class="hover-target"
+                                            href="https://www.linkedin.com/in/abhishek-kumar-a06048165/"
+                                            target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a class="hover-target" href="https://github.com/Abhi-prasad7042"
+                                            target="_blank"><i class="fa-brands fa-github"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <p>Copyright &copy; 2022 <B>IPP</B> All Rights Reserved.</p>
+    </footer>
+    <!----------------footer End------------>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
